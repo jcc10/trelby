@@ -1,6 +1,8 @@
 # -*- coding: iso-8859-1 -*-
 
 from error import *
+import wxversion
+wxversion.select('2.8')
 import autocompletiondlg
 import cfgdlg
 import charmapdlg
